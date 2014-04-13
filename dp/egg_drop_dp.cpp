@@ -2,7 +2,6 @@
 #include<iostream>
 #include<climits>
 using namespace std;
-static vector<int> drop_floor;
 int egg_drop(int k, int n) {
     int arr[k+1][n+1];
     for(int i=1;i<=n;i++) {
